@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open App</title>
+    <script>
+        function getMobileOperatingSystem() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            return "unknown";
+        }
+
+        window.onload = function() {
+            var os = getMobileOperatingSystem();
+            if (os == "iOS") {
+                // iOS: Universal Link를 사용하여 앱 실행 시도
+                window.location.replace("YOUR_UNIVERSAL_LINK_URL");
+            } else if (os == "Android") {
+                // Android: Intent를 사용하여 앱 실행
+                window.location.replace("intent://YOUR_ANDROID_HOST/#Intent;scheme=YOUR_ANDROID_SCHEME;package=YOUR_ANDROID_PACKAGE_NAME;S.browser_fallback_url=YOUR_ANDROID_FALLBACK_URL;end");
+            } else {
+                // 다른 OS: 대체 페이지 또는 메시지 표시
+                document.body.innerHTML = "This link is designed to be opened on a mobile device.";
+            }
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
