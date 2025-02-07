@@ -21,10 +21,10 @@
             var os = getMobileOperatingSystem();
             if (os == "iOS") {
                 // iOS: Universal Link를 사용하여 앱 실행 시도
-                window.location.replace("YOUR_UNIVERSAL_LINK_URL");
+                window.location.replace("https://hong0708.github.io/");
             } else if (os == "Android") {
                 // Android: Intent를 사용하여 앱 실행
-                window.location.replace("intent://YOUR_ANDROID_HOST/#Intent;scheme=YOUR_ANDROID_SCHEME;package=YOUR_ANDROID_PACKAGE_NAME;S.browser_fallback_url=YOUR_ANDROID_FALLBACK_URL;end");
+                window.location.replace("intent://hong0708.github.io/#Intent;scheme=https;package=com.connectsdk.sampler;S.browser_fallback_url=https://play.google.com/store/apps/details?id=com.connectsdk.sampler;end");
             } else {
                 // 다른 OS: 대체 페이지 또는 메시지 표시
                 document.body.innerHTML = "This link is designed to be opened on a mobile device.";
