@@ -6,7 +6,6 @@ exports.handler = async (event, context) => {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        // apple-app-site-association 파일 내용
         "applinks": {
           "apps": [],
           "details": [
