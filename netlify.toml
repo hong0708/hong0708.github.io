@@ -1,10 +1,5 @@
-# [[headers]]
-#   for = "/.well-known/apple-app-site-association"
-#   [headers.values]
-#     Content-Type = "application/json"
 [build]
-  publish = "."  # 배포 디렉토리를 지정합니다.
-  functions = "netlify/functions" # Netlify Functions 디렉토리를 지정합니다.
+  functions = "netlify/functions"
 
 [[redirects]]
   from = "/.well-known/apple-app-site-association"
