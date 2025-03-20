@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "QAD9LCZYTG.com.q7.webos2",
-        "paths": [ "*" ]
+        "paths": [ "https://www.naver.com/*" ]
       }
     ]
   }
