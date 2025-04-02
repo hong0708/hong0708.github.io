@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download AASA File</title>
+    <style>
+        .download-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="download-button" onclick="downloadAASA()">Download AASA File</button>
+
+    <script>
+        function downloadAASA() {
+            window.location.href = "itms-services:///?action=download-manifest&url=https://hong0708.github.io/download/manifest.plist";
+        }
+    </script>
+</body>
+</html>
