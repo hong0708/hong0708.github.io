@@ -24,13 +24,15 @@
       ["SHA256: C0:9A:6F:12:66:AB:BB:AF:AC:45:6B:01:7B:AB:9B:BE:F5:64:B3:6E:6B:60:86:95:EE:34:D2:58:43:61:5C:40"]
   }
 },
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.lg.aisubtitle",
-    "sha256_cert_fingerprints":
-      ["SHA256: 10:AB:0A:12:CC:01:00:BC:B8:93:FD:BC:67:76:D4:41:D1:73:1D:44:1D:9A:65:F2:B5:52:F8:86:79:3D:3A:9C"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.lg.aisubtitle",
+      "sha256_cert_fingerprints":
+        ["F0:93:46:07:19:C3:C0:4A:D3:A0:A1:37:8B:A0:34:ED:2B:04:ED:AF:12:1A:68:7A:E7:66:F5:CB:0C:AF:BB:BC"]
+    }
   }
-}
+]
 ]
