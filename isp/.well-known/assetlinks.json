@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.lgeha.nuts",
+      "package_name": "com.lg.aisubtitle",
       "sha256_cert_fingerprints":
-        ["10:AB:0A:12:CC:01:00:BC:B8:93:FD:BC:67:76:D4:41:D1:73:1D:44:1D:9A:65:F2:B5:52:F8:86:79:3D:3A:9C", "33:97:86:28:6F:3C:54:A5:C4:A4:29:FF:FC:9A:0F:C5:67:D2:A6:B7:14:DB:59:AF:3E:BD:3E:06:3D:6F:EF:4A"]
+        ["F0:93:46:07:19:C3:C0:4A:D3:A0:A1:37:8B:A0:34:ED:2B:04:ED:AF:12:1A:68:7A:E7:66:F5:CB:0C:AF:BB:BC"]
     }
   }
 ]
