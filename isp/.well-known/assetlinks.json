@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.lg.aisubtitle",
+      "sha256_cert_fingerprints":
+        ["F0:93:46:07:19:C3:C0:4A:D3:A0:A1:37:8B:A0:34:ED:2B:04:ED:AF:12:1A:68:7A:E7:66:F5:CB:0C:AF:BB:BC"]
+    }
+  }
+]
+]
