@@ -5,8 +5,7 @@
       {
           "appID": "5SKT5H4CPQ.com.lg.aisubtitle",
           "paths": [
-            "/nais/index.html",
-            "NOT *"
+            "/nais/index.html"
           ]
       }
     ]
